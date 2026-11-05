@@ -1,0 +1,85 @@
+article {
+  background-color: #ffffff;
+  border: 1px solid #e3d5c3;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+article img,
+#om-oss img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.knapp {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.pris {
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.knapp:hover {
+  background-color: #6f0c0c;
+}
+
+.falt,
+.val {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.val label {
+  display: inline;
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  max-width: 28rem;
+  padding: 10px 12px;
+  border: 2px solid #8a7a6a;
+  border-radius: 6px;
+  font: inherit;
+}
+
+fieldset {
+  border: 1px solid #e3d5c3;
+  border-radius: 8px;
+  margin: 0 0 16px;
+  padding: 12px 16px;
+}
+
+legend {
+  font-weight: 700;
+  padding: 0 8px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+article .pris {
+  margin-top: auto;
+}

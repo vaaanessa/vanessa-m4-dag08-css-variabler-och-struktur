@@ -1,4 +1,6 @@
 /* ===== Dag 3: grunder, boxmodell ===== */
+
+/*
 *,
 *::before,
 *::after {
@@ -12,6 +14,9 @@ body {
   background-color: var(--color-background);
 }
 
+*/
+
+/*
 header {
   background-color: var(--color-header);
   color: #ffffff;
@@ -22,6 +27,9 @@ header h1 {
   margin: 0 0 8px;
 }
 
+*/
+
+/*
 nav ul {
   list-style: none;
   margin: 0;
@@ -42,6 +50,8 @@ section {
   margin-bottom: 40px;
 }
 
+*/
+/*
 article {
   background-color: #ffffff;
   border: 1px solid #e3d5c3;
@@ -67,6 +77,9 @@ article img,
   text-decoration: none;
 }
 
+*/
+
+/*
 footer {
   background-color: #2b1c14;
   color: #ffffff;
@@ -81,7 +94,10 @@ address {
   font-style: normal;
 }
 
+*/
+
 /* ===== Dag 4: typografi och färg ===== */
+/*
 body {
   font-family:
     system-ui,
@@ -93,6 +109,8 @@ body {
   line-height: 1.6;
 }
 
+
+
 h1,
 h2,
 h3 {
@@ -101,10 +119,18 @@ h3 {
   color: var(--color-heading);
 }
 
+*/
+
+/*
+
 header h1 {
   color: #ffffff;
   font-size: 1.75rem;
 }
+
+*/
+
+/*
 
 h2 {
   font-size: 1.75rem;
@@ -116,11 +142,15 @@ h3 {
   margin: 12px 0 8px;
 }
 
+*/
+/*
 .pris {
   font-weight: 700;
   color: var(--color-primary);
 }
+  */
 
+/*
 a {
   color: var(--color-primary);
   text-underline-offset: 3px;
@@ -130,14 +160,20 @@ a:hover {
   color: #5e0a0a;
 }
 
+*/
+
+/*
 nav a {
   font-weight: 600;
 }
 
+*/
+/*
 .knapp:hover {
   background-color: #6f0c0c;
 }
-
+*/
+/*
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
@@ -147,6 +183,9 @@ textarea:focus-visible {
   outline-offset: 2px;
 }
 
+*/
+
+/*
 #hero {
   background-color: #f3e3cf;
   padding: 32px 24px;
@@ -158,7 +197,11 @@ textarea:focus-visible {
   max-width: 60ch;
 }
 
+*/
+
 /* Formulär */
+
+/*
 .falt,
 .val {
   margin-bottom: 16px;
@@ -202,7 +245,12 @@ legend {
   padding: 0 8px;
 }
 
+*/
+
 /* ===== Dag 5: Flexbox ===== */
+
+/*
+
 header {
   display: flex;
   flex-wrap: wrap;
@@ -227,6 +275,8 @@ footer {
   gap: 16px;
 }
 
+*/
+/*
 article {
   display: flex;
   flex-direction: column;
@@ -235,8 +285,12 @@ article {
 article .pris {
   margin-top: auto;
 }
+  */
 
 /* ===== Dag 6: Grid ===== */
+
+/*
+
 .meny-lista {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -257,7 +311,12 @@ article .pris {
   grid-column: 1 / -1;
 }
 
+*/
+
 /* ===== Dag 7: Responsiv design (mobile first) ===== */
+
+/* 
+
 @media (min-width: 600px) {
   main {
     padding: 32px;
@@ -287,3 +346,5 @@ article .pris {
     padding: 20px 48px;
   }
 }
+
+*/
