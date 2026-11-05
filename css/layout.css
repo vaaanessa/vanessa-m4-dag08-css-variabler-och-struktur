@@ -1,11 +1,13 @@
+/* Sidans layout med sidhuvud, grid, sidfot och media queries. */
+
 header {
   background-color: var(--color-header);
   color: #ffffff;
-  padding: 16px 24px;
+  padding: var(--space-2) var(--space-3);
 }
 
 header h1 {
-  margin: 0 0 8px;
+  margin: 0 0 var(--space-1);
 }
 
 nav ul {
@@ -19,7 +21,7 @@ nav a {
 }
 
 main {
-  padding: 24px;
+  padding: var(--space-3);
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -31,7 +33,7 @@ section {
 footer {
   background-color: #2b1c14;
   color: #ffffff;
-  padding: 24px;
+  padding: var(--space-3);
 }
 
 footer a {
@@ -53,8 +55,8 @@ nav a {
 
 #hero {
   background-color: #f3e3cf;
-  padding: 32px 24px;
-  border-radius: 8px;
+  padding: var(--space-4) var(--space-3);
+  border-radius: var(--space-1);
 }
 
 #hero p {
@@ -67,7 +69,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 8px 24px;
+  gap: var(--space-1) var(--space-3);
 }
 
 header h1 {
@@ -83,7 +85,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 16px;
+  gap: var(--space-2);
 }
 
 .meny-lista {
@@ -99,7 +101,7 @@ footer {
 #om-oss {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 8px 32px;
+  gap: var(--space-1) var(--space-4);
 }
 
 #om-oss h2 {
@@ -109,7 +111,7 @@ footer {
 /* ===== Dag 7: Responsiv design (mobile first) ===== */
 @media (min-width: 600px) {
   main {
-    padding: 32px;
+    padding: var(--space-4);
   }
 
   #hero {
@@ -133,6 +135,6 @@ footer {
   }
 
   header {
-    padding: 20px 48px;
+    padding: 20px var(--space-5);
   }
 }

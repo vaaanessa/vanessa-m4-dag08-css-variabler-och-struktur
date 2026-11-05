@@ -1,3 +1,5 @@
+/* Grundstilar för sidan, rubriker, länkar och fokusmarkering. */
+
 *,
 *::before,
 *::after {
@@ -12,12 +14,7 @@ body {
 }
 
 body {
-  font-family:
-    system-ui,
-    -apple-system,
-    "Segoe UI",
-    Roboto,
-    sans-serif;
+  font-family: var(--font-body);
   font-size: 1rem;
   line-height: 1.6;
 }
@@ -25,19 +22,19 @@ body {
 h1,
 h2,
 h3 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-heading);
   line-height: 1.2;
   color: var(--color-heading);
 }
 
 h2 {
   font-size: 1.75rem;
-  margin: 0 0 16px;
+  margin: 0 0 var(--space-2);
 }
 
 h3 {
   font-size: 1.25rem;
-  margin: 12px 0 8px;
+  margin: 12px 0 var(--space-1);
 }
 
 a {

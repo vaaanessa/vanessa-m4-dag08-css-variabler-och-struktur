@@ -1,6 +1,6 @@
-:root {
-  /*Färger*/
+/* Variabler för färger, typsnitt och avstånd. */
 
+:root {
   --color-primary: #8c1010;
   --color-text: #222222;
   --color-background: #fffaf3;
